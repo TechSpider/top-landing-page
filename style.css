@@ -21,7 +21,7 @@ body {
 
 .nav-bar {
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 .nav-bar a {
@@ -58,6 +58,8 @@ body {
 .hero-img {
     width: 400px;
     height: auto;
+    flex-shrink: 0;
+    margin-left: 20px;
 }
 
 .sign-up-button {
@@ -68,4 +70,116 @@ body {
     border-radius: 8px;
     width: 100px;
     height: 30px;
+    flex-shrink: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.info h1 {
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+    margin: 35px 0px;
+}
+
+.info-cards {
+    display: flex;
+    gap: 60px;
+}
+
+.info-card {
+    width: 140px;
+}
+
+.info img {
+    flex-shrink: 0;
+    width: 140px;
+    height: 93px;
+    border-radius: 12px;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 400px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 150px;
+}
+
+.quote {
+    margin: 0;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 350;
+    color: #1f2937;
+}
+
+.quote-author {
+    margin: 0;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.sign-up-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    height: 100px;
+    min-width: 500px;
+    box-sizing: border-box;
+    background-color: #3882f6;
+    margin: 75px auto;
+    padding: 0 100px;
+    border-radius: 10px;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-text p {
+    margin: 0;
+}
+
+.sign-up-l1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.sign-up-l2 {
+    font-size: 14px;
+    color: #f9faf8;
+}
+
+.sign-up-card .sign-up-button {
+    border: 2px solid #e5e7eb;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    padding: 10px 10%;
+    margin: 0;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
 }
